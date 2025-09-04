@@ -12,6 +12,9 @@ public class Aluno {
     public String getNome(){
         return nome;
     }
+    public void setNome(String new_nome){
+        this.nome=new_nome;
+    }
     public String getMatricula(){
         return matricula;
     }

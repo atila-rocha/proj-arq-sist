@@ -34,6 +34,7 @@ public class Turma {
     }
 
     public void delete(Aluno a){
-
+        this.listaAluno.remove(a);
+        tDao.delete(a);
     }
 }
