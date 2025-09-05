@@ -21,6 +21,6 @@ public class TurmaDao {
         System.out.println(a.getNome());
     }
     public void delete(Aluno a){
-        System.out.println("Aluno, "+ a.getNome()+ ", saiu da turma com sucesso.");
+        System.out.println("Aluno "+ a.getNome()+ ", saiu da turma com sucesso.");
     }
 }

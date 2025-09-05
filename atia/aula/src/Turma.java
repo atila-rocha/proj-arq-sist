@@ -32,9 +32,14 @@ public class Turma {
         tDao.save(a);
         return null;
     }
-
+    public void updateNomeAluno(Aluno a, String nome){
+        tDao.update(a, nome);
+    }
     public void delete(Aluno a){
         this.listaAluno.remove(a);
         tDao.delete(a);
+    }
+    public void imprimeAlunos(){
+        tView.MostraDados(listaAluno);
     }
 }

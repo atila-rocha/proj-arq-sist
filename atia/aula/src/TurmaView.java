@@ -11,7 +11,10 @@ public class TurmaView {
         }
         
     }
-    public void MostraDados(){
-        System.out.println("Mostra na tela dados dos alunos");
+    public void MostraDados(List<Aluno> alunos){
+        System.out.println("MOSTRANDO OS ALUNOS:");
+        for (Aluno a1 : alunos) {
+            System.out.println("Nome: "+ a1.getNome()+ ", Matrícula: "+ a1.getMatricula());    
+        }
     }
 }
